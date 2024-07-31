@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-screen flex items-center justify-center bg-black text-white mx-4 md:mx-none">
+    <div className="h-screen flex items-center justify-center bg-black text-white mx-6 md:mx-none">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Contáctame</h2>
         <form onSubmit={handleSubmit} className="max-w-md mx-auto bg-white/90 text-black p-6 rounded-lg shadow-md">
