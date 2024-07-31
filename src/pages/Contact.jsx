@@ -43,7 +43,7 @@ const Contact = () => {
             <input 
               type="text" 
               id="name" 
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm" 
+              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm py-1" 
               value={formData.name} 
               onChange={handleChange} 
               required 
@@ -54,7 +54,7 @@ const Contact = () => {
             <input 
               type="email" 
               id="email" 
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm" 
+              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm py-1" 
               value={formData.email} 
               onChange={handleChange} 
               required 
