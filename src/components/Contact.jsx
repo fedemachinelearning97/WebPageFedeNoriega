@@ -24,7 +24,7 @@ const Contact = () => {
       className="h-[90vh] flex items-center justify-center bg-black text-white mx-4 md:mx-0"
     >
       <div className="container mx-auto text-center" data-aos="fade-up">
-        <h2 className="md:text-5xl text-4xl font-bold mb-6">Contáctame</h2>
+        <h2 className="md:text-5xl text-4xl font-bold mb-6">Contactanos</h2>
         <p className="mb-4 w-11/12 md:w-8/12 mx-auto text-lg">
           Solo un mensaje y te contaremos cómo nuestras soluciones pueden
           transformar tu negocio y llevarlo al siguiente nivel de eficiencia y
@@ -37,18 +37,18 @@ const Contact = () => {
         />
         <Link to="/contact"
           onClick={scrollToContact}
-          className="bg-lime-500/80 text-white py-3 px-4 shadow-md transition duration-300 hover:bg-lime-500"
+          className="bg-lime-400 text-black font-bold rounded-lg py-3 px-4 shadow-md transition duration-300 hover:bg-lime-600 hover:text-white"
           title="Ir a la ventana de contacto"
         >
           Ir a Contacto
         </Link>
 
-        <h4 className="text-xl font-bold my-6">
+        <h4 className="text-xl font-bold my-10 border-t border-lime-400 pt-4 ">
           Visita nuestro blog de divulgación de inteligencia artificial
         </h4>
 
         <Link to="/blog-ia"
-          className="bg-white/65 text-black py-2 px-4 shadow-md transition duration-300 hover:bg-white"
+          className="bg-white text-black py-2 px-4 shadow-md rounded-lg transition duration-300 hover:bg-black hover:text-white"
           title="Ir a la ventana de blog ia"
         >
           Ir a Blog
