@@ -8,18 +8,18 @@ import serviceImage3 from '../assets/wallhaven-3zke7ymitad.png';
 const Services = ({ scrollToNextSection }) => {
   return (
     <section className='md:h-screen mx-4 md:mx-none'>
-        <h2 className='text-3xl font-bold text-white text-center w-full flex-row mb-8'>Servicios</h2>
+        <h2 className='text-4xl md:text-5xl font-bold text-white text-center w-full flex-row mb-8'>Servicios</h2>
     
     <section
       id="services"
-      className=" bg-black text-white flex items-center justify-center" >
+      className=" bg-black text-white flex items-center justify-center mx-4" >
      
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-up">
-        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 " >
+        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center" data-aos="fade-up">
           <img
             src={serviceImage1}
             alt="Servicio 1"
-            className="w-full h-48 object-cover mb-4"
+            className="w-full md:h-48 h-32  object-cover mb-4"
           />
           <h3 className="text-2xl font-bold mb-2">
             Captando tus datos y generando información valiosa
@@ -30,11 +30,11 @@ const Services = ({ scrollToNextSection }) => {
             transformación. Implementamos sensores adecuados a su industria.
           </p>
         </div>
-        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center">
+        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center" data-aos="fade-up">
           <img
             src={serviceImage2}
             alt="Servicio 2"
-            className="w-full h-48 object-cover mb-4"
+            className="w-full md:h-48 h-32 object-cover mb-4"
           />
           <h3 className="text-2xl font-bold mb-2">
             Simulación de resultados y escalabilidad
@@ -46,11 +46,11 @@ const Services = ({ scrollToNextSection }) => {
             optimizan tus procesos.
           </p>
         </div>
-        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center">
+        <div className="bg-white text-black p-6 shadow-md flex flex-col items-center" data-aos="fade-up">
           <img
             src={serviceImage3}
             alt="Servicio 3"
-            className="w-full h-48 object-cover mb-4"
+            className="w-full md:h-48 h-32 object-cover mb-4"
           />
           <h3 className="text-2xl font-bold mb-2">
             Promoviendo el impacto ambiental positivo

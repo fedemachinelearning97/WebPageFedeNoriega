@@ -14,7 +14,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
-      <div className="bg-black text-white">
+      <div className="bg-black text-white mx-none">
         <Navbar />
         <FloatingButton />
         <ScrollToTop /> {/* Usar ScrollToTop aquí */}

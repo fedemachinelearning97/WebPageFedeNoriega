@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const FloatingButton = () => {
   // Número de teléfono y mensaje predeterminado
-  const phoneNumber = '5492646761951';
+  const phoneNumber = '+54 9 2646 76-1951';
   const defaultMessage = 'Hola, me gustaría ponerme en contacto contigo.';
 
   // URL de WhatsApp
@@ -18,6 +18,7 @@ const FloatingButton = () => {
       className="z-20 fixed bottom-4 right-4 bg-lime-400 text-white p-3 rounded-full shadow-lg hover:bg-lime-500 transition duration-300"
       title="Contáctame por WhatsApp"
     >
+      
       <FaWhatsapp className="text-2xl" />
       <span class="animate-ping fixed bottom-4 right-4 bg-green-400 p-2 rounded-full"></span>
     </a>
