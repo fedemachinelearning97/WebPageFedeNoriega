@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white p-4 fixed w-full z-10">
+    <nav className="bg-black/95 text-white p-4 fixed w-full z-20">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
         <h1 className="text-2xl font-bold text-lime-400 hover:text-white hover:scale-105 transition duration-300"> ● Condor LAB</h1>
