@@ -15,12 +15,12 @@ const FloatingButton = () => {
       href={whatsappURL}
       target="_blank"
       rel="noopener noreferrer"
-      className="z-20 fixed bottom-4 right-4 bg-lime-400 text-white p-3 rounded-full shadow-lg hover:bg-lime-500 transition duration-300"
+      className="z-20 fixed bottom-4 right-4 bg-lime-400 text-white p-4 rounded-full shadow-lg hover:bg-lime-500 transition duration-300"
       title="Contáctame por WhatsApp"
     >
       
-      <FaWhatsapp className="text-2xl" />
-      <span class="animate-ping fixed bottom-4 right-4 bg-green-400 p-2 rounded-full"></span>
+      <FaWhatsapp className="text-3xl" />
+      <span class="animate-ping fixed bottom-4 right-4 bg-green-500 p-3 rounded-full"></span>
     </a>
   );
 };
