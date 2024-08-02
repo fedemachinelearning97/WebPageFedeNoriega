@@ -7,7 +7,7 @@ import serviceImage3 from '../assets/wallhaven-3zke7ymitad.png';
 
 const Services = ({ scrollToNextSection }) => {
   return (
-    <section className='md:h-screen mx-4 md:mx-none'>
+    <section className='md:h-screen mx-4 md:mx-none flex-col flex justify-center space-y-10'>
         <h2 className='text-4xl md:text-5xl font-bold text-white text-center w-full flex-row mb-8'>Servicios</h2>
     
     <section
