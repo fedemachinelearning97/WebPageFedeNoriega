@@ -33,7 +33,7 @@ const Contact = () => {
         <img
           src={contactImage}
           alt="Imagen de contacto"
-          className="h-48 mx-auto mb-4"
+          className="h-40 mx-auto my-6"
         />
         <Link to="/contact"
           onClick={scrollToContact}
@@ -43,7 +43,7 @@ const Contact = () => {
           Ir a Contacto
         </Link>
 
-        <h4 className="text-xl font-bold my-10 border-t border-lime-400 pt-4 ">
+        <h4 className="text-xl font-bold my-10 border-t border-lime-300 pt-4 ">
           Visita nuestro blog de divulgación de inteligencia artificial
         </h4>
 
