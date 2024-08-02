@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import fondoverde from '../assets/fondoverde.jpg'; // Asegúrate de que esta ruta sea correcta
+import imgLogo from '../assets/favicon.png';
 
 const Contact = () => {
   // Estado para almacenar los valores del formulario
@@ -45,7 +46,10 @@ const Contact = () => {
       }}
     >
       <div className="container mx-auto text-center justify-center">
-        <h2 className="text-4xl font-bold mb-4">Contáctame</h2>
+
+        <img src={imgLogo} alt="imagen logo" className='h-24 mx-auto my-4' />
+
+        <h2 className="text-5xl font-bold mb-6 text-black/90">Contactanos</h2>
         <form
           onSubmit={handleSubmit}
           className="max-w-md  bg-black/95 text-black p-8 rounded-lg shadow-md md:mx-auto mx-2"
