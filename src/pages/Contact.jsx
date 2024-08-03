@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <div
-      className="h-screen flex items-center justify-center text-white "
+      className="min-h-screen flex items-center justify-center text-white "
       style={{
         backgroundImage: `url(${fondoverde})`,
         backgroundSize: 'cover',
@@ -45,7 +45,7 @@ const Contact = () => {
         backgroundRepeat: 'no repeat',
       }}
     >
-      <div className="container mx-auto text-center justify-center">
+      <div className="container mx-auto text-center justify-center py-16">
 
         <img src={imgLogo} alt="imagen logo" className='h-24 mx-auto my-4' />
 
