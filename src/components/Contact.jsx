@@ -2,15 +2,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowUp } from 'react-icons/fa';
-import contactImage from '../assets/dotscolores.png'; // Asegúrate de tener una imagen en la carpeta assets
+
 
 const Contact = () => {
-  // Función para desplazar al inicio de la página
+  
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Función para desplazar a la sección de contacto
+
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
     if (contactSection) {
@@ -21,19 +21,19 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="h-[90vh] flex items-center justify-center bg-black text-white mx-4 md:mx-0"
+      className="h-[95vh] flex items-center justify-center bg-black text-white mx-4 md:mx-0"
     >
       <div className="container mx-auto text-center" data-aos="fade-up">
-        <h2 className="md:text-5xl text-4xl font-bold mb-6">Contactanos</h2>
+        <h2 className="md:text-5xl text-4xl font-bold mb-12">Contactanos</h2>
         <p className="mb-4 w-11/12 md:w-8/12 mx-auto text-lg">
           Solo un mensaje y te contaremos cómo nuestras soluciones pueden
           transformar tu negocio y llevarlo al siguiente nivel de eficiencia y
           eficacia.
         </p>
         <img
-          src={contactImage}
+          src="https://images.pexels.com/photos/3520683/pexels-photo-3520683.jpeg"
           alt="Imagen de contacto"
-          className="h-40 mx-auto my-6"
+          className="h-72 mx-auto my-6"
         />
         <Link to="/contact"
           onClick={scrollToContact}

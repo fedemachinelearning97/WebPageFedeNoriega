@@ -1,18 +1,18 @@
 // src/pages/Contact.jsx
 import React, { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import fondoverde from '../assets/fondoverde.jpg'; // Asegúrate de que esta ruta sea correcta
+import fondoverde from '../assets/fondoverde.jpg'; 
 import imgLogo from '../assets/favicon.png';
 
 const Contact = () => {
-  // Estado para almacenar los valores del formulario
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
 
-  // Manejador de cambio para los campos del formulario
+  
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData((prevState) => ({
@@ -21,17 +21,17 @@ const Contact = () => {
     }));
   };
 
-  // Manejador del envío del formulario
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Formatear el mensaje para WhatsApp
+    
     const whatsappMessage = `Hola, mi nombre es ${formData.name}. Mi correo es ${formData.email}. Me comunico por lo siguiente: ${formData.message}`;
 
-    // Construir el enlace de WhatsApp
+    
     const whatsappURL = `https://api.whatsapp.com/send?phone=5492646761951&text=${encodeURIComponent(whatsappMessage)}`;
 
-    // Abrir el enlace de WhatsApp en una nueva pestaña
+    
     window.open(whatsappURL, '_blank');
   };
 

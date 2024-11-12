@@ -3,11 +3,11 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const FloatingButton = () => {
-  // Número de teléfono y mensaje predeterminado
+  
   const phoneNumber = '+54 9 2646 76-1951';
   const defaultMessage = 'Hola, me gustaría ponerme en contacto contigo.';
 
-  // URL de WhatsApp
+  
   const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(defaultMessage)}`;
 
   return (

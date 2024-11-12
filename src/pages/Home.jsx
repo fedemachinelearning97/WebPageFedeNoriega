@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false, // Permitir que los efectos se repitan
+      once: false, 
     });
   }, []);
 

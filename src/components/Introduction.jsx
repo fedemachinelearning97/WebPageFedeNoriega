@@ -1,16 +1,17 @@
 // src/components/Introduction.jsx
 import React from 'react';
 
-import introductionImage from '../assets/dotscolores.png'; // Asegúrate de tener esta imagen
+import introductionImage from '../assets/dotscolores.png'; 
 
 const Introduction = () => {
   return (
     <section
       id="introduction"
-      className="h-screen flex items-center justify-center bg-black text-white"
-      
-    >
-      <div className="container mx-auto flex flex-col md:flex-row items-center md:ml-16" data-aos="fade-up">
+      className="h-screen flex  bg-black text-white"  >
+
+
+
+      <div className="container mx-auto flex flex-col md:flex-row items-center  justify-between" data-aos="fade-up">
         <div className="text-center md:text-left mx-4 md:mx-none">
           <h2 className="md:text-6xl text-4xl font-bold mb-8 ml-4">Introducción</h2>
           <p className="mb-4 text-lg">
@@ -24,7 +25,7 @@ const Introduction = () => {
         <img
           src={introductionImage}
           alt="Introducción"
-          className="md:w-1/2 w-2/3 h-auto max-h-[85svh] object-cover"
+          className="md:w-1/2 w-2/3 h-auto max-h-[85svh] object-cover mx-auto"
         />
       </div>
 
