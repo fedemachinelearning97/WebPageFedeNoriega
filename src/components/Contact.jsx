@@ -56,7 +56,7 @@ const Contact = () => {
         
       </div>
 
-      {/* Botón flotante de navegación */}
+     
       <div className="hidden md:flex flex-col absolute left-4 items-center">
         <button
           onClick={scrollToTop}
